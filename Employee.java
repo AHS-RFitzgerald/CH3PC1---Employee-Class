@@ -21,18 +21,31 @@ public class Employee {
         position = pos;
     }
     
-    
-    
-    
+    /**
+     *The setname method accepts an argument that is stored
+     *in the name field.
+    */
     public void setname(String Name){
         name = Name;
 }
+    /**
+     *The setidNumber method accepts an argument that is stored
+     *in the idNumber field.
+    */
     public void setidNumber(int id){
         idNumber = id;
     }
+    /**
+     *The setdepartment method accepts an argument that is stored
+     *in the department field.
+    */
     public void setdepartment(String depart){
         department = depart;
     }
+    /**
+     *The setposition method accepts an argument that is stored
+     *in the position field.
+    */
     public void setposition(String pos){
         position = pos;
     }
@@ -55,6 +68,10 @@ public class Employee {
     public String getdepartment(){
         return department;
     }
+    /**
+     * the getposition method returns the position of the employee
+     * @return 
+     */
     public String getposition(){
         return position;
     }
